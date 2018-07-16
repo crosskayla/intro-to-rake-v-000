@@ -19,4 +19,5 @@ namespace :db do
 
   desc 'migrates database'
   task :migrate => :environment do
+  end
 end
