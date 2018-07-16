@@ -14,7 +14,7 @@ namespace :db do
 
   desc 'environment'
   task :environment do
-    require_relative '../config/environment.rb'
+    require_relative './config/environment.rb'
   end
 
   desc 'migrates database'
